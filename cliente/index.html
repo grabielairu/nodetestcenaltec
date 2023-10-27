@@ -8,7 +8,15 @@
 </head>
 <body onload="conex()">
 <div id="data">
-    <button onclick="Show()">Mostrar</button>
+    <select id="clase" onchange="updateAtributos()">
+        <option value="">Selecciona una clase</option>
+    </select>
+    <div id="atributos"></div>
+    <select id="armas">
+        <option value="">Selecciona un arma</option>
+        
+    </div>
+    </select>
 </div>
     
 </body>
